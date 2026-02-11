@@ -1,0 +1,18 @@
+{
+    "background.editor": {
+      "useFront": true,
+      "style": {
+        "background-position": "100% 100%",
+        "background-size": "cover",
+        "opacity": 0.6
+      },
+      "styles": [{}, {}, {}],
+      // `images` supports online and local images, as well as folders.
+      "images": [
+        // online images, only `https` is allowed.
+        "/Users/apple/Downloads/wp13792070-goodbye-eri-wallpapers.jpg"
+      ],
+      "interval": 0,
+      "random": false
+    }
+  }

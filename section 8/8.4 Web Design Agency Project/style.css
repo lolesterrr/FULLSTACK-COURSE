@@ -24,34 +24,47 @@ span{
   color: #191970;
 }
 
-div{
-  width: 40%;
-}
 .left{
   display: inline-block;
   float: left;
+  width: 40%;
 }
 
 .right{
   display: inline-block;
   float: right;
+  width: 40%;
 }
 
-.left p{
-  clear: right;
-}
-
-.right p{
-  clear: left;
-}
 
 .left img{
   float: left;
 }
 
 .right img{
-  float: right;
+  float: left;
 }
+
+.left p{
+  position: relative;
+  left:30px;
+}
+
+.left h2 {
+  position: relative;
+  left: 30px;
+}
+.right p{
+  position: relative;
+  left:30px;
+}
+
+.right h2 {
+  position: relative;
+  left: 30px;
+}
+
+
 
   
 

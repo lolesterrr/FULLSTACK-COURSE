@@ -12,10 +12,61 @@ body {
 
 h1 {
   font-size: 5rem;
+  max-width: 700px;
 }
 
 footer {
   text-align: right;
   color: midnightblue;
+}
+
+span{
+  color: #191970;
+}
+
+div{
+  width: 40%;
+}
+.left{
+  display: inline-block;
+  float: left;
+}
+
+.right{
+  display: inline-block;
+  float: right;
+}
+
+.left p{
+  clear: right;
+}
+
+.right p{
+  clear: left;
+}
+
+.left img{
+  float: left;
+}
+
+.right img{
+  float: right;
+}
+
+  
+
+ img{
+  width: 300px;
+}
+
+
+@media (max-width: 600px){
+  .left {
+    display: block;
+  }
+  .right {
+    display: block;
+  }
+
 }
 

@@ -73,13 +73,46 @@ span{
 }
 
 
-@media (max-width: 600px){
+@media (max-width: 400px){
   .left {
     display: block;
   }
   .right {
     display: block;
   }
+  h1{
+    display: block;
+    font-size: 3.5rem;
+    text-align: center;
+
+  }
+  .card{
+    width: 100%;
+    
+  }
+  
+  .left p{
+    position: relative;
+    left:0px;
+  }
+  
+  .left h2 {
+    position: relative;
+    left: 0px;
+  }
+  .right p{
+    position: relative;
+    left:0px;
+  }
+  
+  .right h2 {
+    position: relative;
+    left: 0px;
+  }
+  p{
+    margin: 16px 0px;
+  }
+  
 
 }
 

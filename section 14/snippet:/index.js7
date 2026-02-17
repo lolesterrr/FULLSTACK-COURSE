@@ -1,0 +1,3 @@
+var userText = prompt("write something")
+alert("You have written" + " " + userText.length + " " +"characters" + ". You have " + (140-userText.length) + " " + "characters left." )
+alert(userText.slice(0,140) + " has been sent")

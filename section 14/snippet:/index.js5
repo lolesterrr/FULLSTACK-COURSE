@@ -1,0 +1,2 @@
+var name = "Lester"; 
+name.slice(0,3)  // THIS WILL BRING UP LES

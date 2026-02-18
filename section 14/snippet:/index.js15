@@ -1,37 +1,3 @@
-function functionName() {} // The code goes between the curly brackets 
-
-
-
-// challenge one
-function main(){
-    putBeeper();
-    diagonal();
-    
-    
- }
- 
- function lMove(){
-    move();
-    turnLeft();
-    move();
-    turnRight();
-    }
-    
- function diagonal(){
-    lMove();
-    putBeeper();
-    lMove();
-    putBeeper();
-    lMove();
-    putBeeper();
-    lMove();
-    putBeeper();
-    
-    
-    }
-
-//challenge 2
-
 function getMilk(money) {   
     console.log("leaveHouse");
     console.log("moveRight");
@@ -53,5 +19,5 @@ function getMilk(money) {
     console.log("moveLeft");
     console.log("enterHouse");
   }
+getMilk(15);
 
-    

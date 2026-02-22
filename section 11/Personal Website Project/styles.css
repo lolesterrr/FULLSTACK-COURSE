@@ -7,7 +7,7 @@
     width: 50px;
 }
 
- body{
+ html{
     background: #d1d2eb;
     background: linear-gradient(90deg, rgba(209, 210, 235, 1) 0%, rgba(19, 151, 156, 1) 50%, rgba(237, 83, 219, 1) 100%);
 }

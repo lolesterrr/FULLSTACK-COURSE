@@ -13,3 +13,5 @@
         this.languages = languages;
         this.yearsOfExperience = yearsOfExperience;
     }
+
+    var houseKeeper1 = new HouseKeeper("Gonslang Tims", 60, true, ["English", "Japanese"], 40);

@@ -12,6 +12,11 @@
         this.hasWorkPermit = hasWorkPermit;
         this.languages = languages;
         this.yearsOfExperience = yearsOfExperience;
+        this.clean = function(){
+            alert("cleaning in progress!");
+        }
     }
 
     var houseKeeper1 = new HouseKeeper("Gonslang Tims", 60, true, ["English", "Japanese"], 40);
+
+

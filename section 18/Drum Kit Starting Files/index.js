@@ -4,7 +4,7 @@ var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
          document.querySelectorAll(".drum")[i].addEventListener("click", function (){
           
-          var buttonInnerHtml = this.buttonInnerHtml;
+          var buttonInnerHtml = this.innerHTML;
 
             switch (buttonInnerHtml) {
                case "w":
@@ -57,4 +57,6 @@ var numberOfDrumButtons = document.querySelectorAll(".drum").length;
     }
 
 
-   
+   document.addEventListener("keydown", function (){
+      alert("key was pressed");
+   })

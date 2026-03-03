@@ -8,13 +8,17 @@ var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
 
           makeSound(buttonInnerHtml);
+
+          buttonAnimaiton(buttonInnerHtml);
          });
 
     }
 
 
    document.addEventListener("keydown", function (event){
-   makeSound(event.key); })
+      makeSound(event.key); 
+      buttonAnimaiton(event.key);
+})
 
 
    function makeSound (key){
@@ -67,5 +71,18 @@ var numberOfDrumButtons = document.querySelectorAll(".drum").length;
      }
 
       
+
+   }
+
+   function buttonAnimaiton(currentKey){
+
+      var activeButton = document.querySelector("." + currentKey)
+      
+      activeButton.classList.add("pressed");
+
+      setTimeout(function(){
+         activeButton.classList.remove("pressed");
+      
+      }, 100);
 
    }

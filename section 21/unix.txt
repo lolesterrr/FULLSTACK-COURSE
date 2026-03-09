@@ -9,3 +9,9 @@ control + U //clear line
 touch xxxx.xxx  //create new file
 open xxxx.xxx //open file
 open -a xxxxxxx xxxx.xxx  //open file with xxxxxxx application
+
+
+rm xxx.xxxx // delete file
+pwd   // print working directory
+rm * // delete everything in current folder
+rm -r xxxx // deletes folder

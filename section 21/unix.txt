@@ -1,0 +1,3 @@
+cd // changes directory
+cd ~ //change directory to root directory
+cd .. // change directory up one level

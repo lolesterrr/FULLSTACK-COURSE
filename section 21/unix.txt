@@ -1,3 +1,6 @@
 cd // changes directory
 cd ~ //change directory to root directory
 cd .. // change directory up one level
+
+control + A //go to begin of line
+control + E //go to end of line

@@ -9,7 +9,7 @@ import fs from "fs";
 inquirer
   .prompt([
     /* Pass your questions in here */
-    { message: "Typr in your url:",
+    { message: "Type in your url:",
       name: "URL"
     }
   ])
